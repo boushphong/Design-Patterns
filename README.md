@@ -28,27 +28,27 @@
 **Association**
 ```python
           1..*             1
-| Class 1 |  ───────────▶  | Class 2|
+| Class 1 |  ───────────▶  | Class 2 |
 
 ```
 
 **Dependency**
 ```python
                <<use>>
-| Class 1 |  - - - - - ->  | Class 2|
+| Class 1 |  - - - - - ->  | Class 2 |
 
 ```
 
 **Aggregation**
 ```python
           1    <<has a>>   1..*
-| Class 1 |  ◇───────────  | Class 2|
+| Class 1 |  ◇───────────  | Class 2 |
 
 ```
 
 **Composition**
 ```python
           1   <<owns a>>   1..*
-| Class 1 |  ◆───────────  | Class 2|
+| Class 1 |  ◆───────────  | Class 2 |
 
 ```
