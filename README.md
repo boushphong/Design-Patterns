@@ -1,3 +1,54 @@
-![uml](https://github.com/boushphong/Design-Patterns/assets/59940078/6cfbc4c3-b9f4-4eb8-a03e-a8b6f427ebfc)
-![B](https://github.com/boushphong/Design-Patterns/assets/59940078/9ea302c0-8ce9-4a9c-b997-f8cfdfed420d)
-![SC](https://github.com/boushphong/Design-Patterns/assets/59940078/b9d9b653-43dc-4851-aa70-1b0b6426b459)
+# UML Class Diagram
+
+| **Class**   |
+|--------|
+| -privateMember: int   |
+| #protectedMember: char  |
+| +publicMember: bool |
+|──────────────────────────|
+| +publicMethod(): void  |
+| +_publicVirtualMethod(parameter: int): void_  |
+| -privateMethod(): bool |
+| #protectedMethod(value: int): char |
+
+**Generalization**
+```python
+|       Child Class      |      is a      |       Parent Class       |
+|       -kid: bool       |  ───────────▷  |  +virtualMethod(): void  |
+| +virtualMethod(): void |
+```
+
+**Realization**
+```python
+|         Class          |   Implements   |         Interface        |
+|       -kid: bool       |  - - - - - -▷  |  +virtualMethod(): void  |
+| +virtualMethod(): void |
+```
+
+**Association**
+```python
+          1..*             1
+| Class 1 |  ───────────▶  | Class 2|
+
+```
+
+**Dependency**
+```python
+               <<use>>
+| Class 1 |  - - - - - ->  | Class 2|
+
+```
+
+**Aggregation**
+```python
+          1    <<has a>>   1..*
+| Class 1 |  ◇───────────  | Class 2|
+
+```
+
+**Composition**
+```python
+          1   <<owns a>>   1..*
+| Class 1 |  ◆───────────  | Class 2|
+
+```
