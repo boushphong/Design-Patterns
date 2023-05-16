@@ -5,7 +5,7 @@ I would like to acknowledge the following books that have greatly influenced my 
 - Dive Into Design Patterns by Alexander Shvets ([refactoring.guru](https://refactoring.guru/))
 - Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
 
-# UML Class Diagram
+# UML Class Diagram Cheatsheet
 
 | **Class**   |
 |--------|
