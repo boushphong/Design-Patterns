@@ -34,7 +34,7 @@
 
 **Dependency**
 ```python
-               <<use>>
+               <<uses>>
 | Class 1 |  - - - - - ->  | Class 2 |
 
 ```
