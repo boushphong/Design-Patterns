@@ -20,16 +20,16 @@ I would like to acknowledge the following books that have greatly influenced my 
 
 **Generalization**
 ```python
-|       Child Class      |      is a      |       Parent Class       |
-|       -kid: bool       |  ───────────▷  |  +virtualMethod(): void  |
-| +virtualMethod(): void |
+|       Child Class       |      is a      |       Parent Class       |
+|       -kid: bool        |  ───────────▷  |  +virtualMethod(): void  |
+| +virtualMethod(): void  |
 ```
 
 **Realization**
 ```python
-|         Class          |   Implements   |         Interface        |
-|       -kid: bool       |  - - - - - -▷  |  +virtualMethod(): void  |
-| +virtualMethod(): void |
+|         Class           |   Implements   |         Interface        |
+|       -kid: bool        |  - - - - - -▷  |  +virtualMethod(): void  |
+| +virtualMethod(): void  |
 ```
 
 **Association**
